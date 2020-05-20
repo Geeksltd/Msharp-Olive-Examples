@@ -168,3 +168,6 @@ M#/lib/*
 M#/lib/netcoreapp*/*
 !M#/lib/netcoreapp*/MSharp.DSL.runtimeconfig.json
 M#/UI/SchemaExtensions.cs
+DB/
+yarn.lock
+/Solutions/*/Website/Blob/
