@@ -108,9 +108,9 @@ Website/Images/TextButtons/
 @ElmahLogs/
 @Scrap/
 
-Domain/App_Readme/Elmah.txt
-Domain/\[GEN-DAL\]/
-Domain/\[GEN-Entities\]/
+/Solutions/*/Domain/App_Readme/Elmah.txt
+/Solutions/*/Domain/\[GEN-DAL\]/
+/Solutions/*/Domain/\[GEN-Entities\]/
 
 Test/@World/*
 !Test/@World/Files/
@@ -138,36 +138,37 @@ Domain/MetaDBSync.sql
 @Assemblies/wnvhtmltopdf.dll
 @Resources/
 
-Website/bower_components/
-Website/wwwroot/lib/
-Website/node_modules/
+/Solutions/*/Website/bower_components/
+/Solutions/*/Website/wwwroot/lib/
+/Solutions/*/Website/node_modules/
 
 # these are all generated
-Website/Views/Pages/
-Website/Views/Modules/
-Website/Controllers/Pages/
-Website/Controllers/Modules/
+/Solutions/*/Website/Views/Pages/
+/Solutions/*/Website/Views/Modules/
+/Solutions/*/Website/Controllers/Pages/
+/Solutions/*/Website/Controllers/Modules/
 
-Website/wwwroot/styles/**/*.css
-!Website/wwwroot/styles/readme.txt
-Website/wwwroot/fonts/*
-!Website/wwwroot/fonts/readme.txt
-Website/wwwroot/scripts/**/*.js
-!Website/wwwroot/scripts/readme.txt
+/Solutions/*/Website/wwwroot/styles/**/*.css
+!/Solutions/*/Website/wwwroot/styles/readme.txt
+/Solutions/*/Website/wwwroot/fonts/*
+!/Solutions/*/Website/wwwroot/fonts/readme.txt
+/Solutions/*/Website/wwwroot/scripts/**/*.js
+/Solutions/*/Website/wwwroot/scripts/**/*.js.map
+!/Solutions/*/Website/wwwroot/scripts/readme.txt
 
-!Website/wwwroot/scripts/ckeditor_config.js
-!Website/wwwroot/scripts/references.js
+!/Solutions/*/Website/wwwroot/scripts/ckeditor_config.js
+!/Solutions/*/Website/wwwroot/scripts/references.js
 
 
 /packages/
 .vs/
 
-M#/Current/Stats.json
-M#/lib/*
-!M#/lib/netcoreapp*/
-M#/lib/netcoreapp*/*
-!M#/lib/netcoreapp*/MSharp.DSL.runtimeconfig.json
-M#/UI/SchemaExtensions.cs
+/Solutions/*/M#/Current/Stats.json
+/Solutions/*/M#/lib/*
+!/Solutions/*/M#/lib/netcoreapp*/
+/Solutions/*/M#/lib/netcoreapp*/*
+!/Solutions/*/M#/lib/netcoreapp*/MSharp.DSL.runtimeconfig.json
+/Solutions/*/M#/UI/SchemaExtensions.cs
 DB/
 yarn.lock
 /Solutions/*/Website/Blob/

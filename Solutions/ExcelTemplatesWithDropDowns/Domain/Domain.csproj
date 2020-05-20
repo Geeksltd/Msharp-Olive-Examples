@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>..\Website\bin\Debug</OutputPath>
+    <NoWarn>1701;1702;1705;1998;NU1701</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DotNetCore.NPOI" Version="1.2.2" />
+    <PackageReference Include="Microsoft.AspNetCore.App" Version="2.1.5" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Olive" Version="2.1.181" />
+    <PackageReference Include="Olive.Audit" Version="2.1.103" />
+    <PackageReference Include="Olive.CSV" Version="2.1.103" />
+    <PackageReference Include="Olive.Drawing" Version="2.1.103" />
+    <PackageReference Include="Olive.Encryption" Version="2.2.102" />
+    <PackageReference Include="Olive.Entities" Version="2.1.139" />
+    <PackageReference Include="Olive.Entities.Data" Version="2.1.150" />
+    <PackageReference Include="Olive.Entities.Data.SqlServer" Version="2.1.107" />
+    <PackageReference Include="Olive.Integration" Version="*" />
+    <PackageReference Include="Olive.Mvc.Security" Version="2.2.106" />
+    <PackageReference Include="Olive.Security.Impersonation" Version="2.1.103" />
+    <PackageReference Include="Olive.Web" Version="2.2.105" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
