@@ -4,7 +4,6 @@ You can find the project [here](/Solutions/CustomRadioButtons)
 
 ![](/Assets/CustomRadioButtons.png)
 
-
 First, create your module as you always do and use AsRadioButton for single select and AsCheckBoxes for multi-select. This method has a parameter for an image URL and FA icon name. And if you only have text there is a Boolean param which should be true. You may need to apply some styling when using images.
 
  
